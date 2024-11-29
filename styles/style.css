@@ -8,10 +8,24 @@
 
 body {
   height: 100vh;
-  padding: 4.5% 10%;
+  padding: 3% 10%;
 }
 
+header {
+  height: 900px;
+}
+header .images img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: auto;
+  width: auto;
+}
+header .images :first-child {
+  top: 20%;
+}
 header .frame_1 {
+  position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -56,6 +70,7 @@ header .frame_1 .other_links .on {
   font-weight: 500;
 }
 header .tag_1 {
+  margin: 100px 0 34px 0;
   color: #FE8432;
   background-color: #FFF3EB;
   border-radius: 20px;
@@ -73,7 +88,7 @@ header .tag_2 h1 {
 }
 header .tag_2 img {
   position: absolute;
-  bottom: 74%;
+  bottom: 61.5%;
   left: 10.4%;
   z-index: 0;
   width: auto;
@@ -85,16 +100,36 @@ header .tag_2 p {
   color: #817D7D;
 }
 header .form {
+  position: relative;
+  margin: 45px 0;
   display: flex;
-  justify-content: space-between;
-  width: 55%;
+  justify-content: space-around;
+  align-items: center;
+  width: 45%;
   background-color: white;
-  border: #000 solid 1px;
+  border: #817D7D solid 1px;
   border-radius: 12px;
-  box-shadow: 0px 0px 10px 1px #817D7D;
+  box-shadow: 0px 0px 10px 0.1px #817D7D;
+  height: 80px;
+  font-size: 16px;
 }
 header .form details summary {
   color: #817D7D;
   font-size: 16px;
   font-weight: 400;
+}
+header .form button {
+  border: none;
+  background-color: #2E2E2E;
+  color: #fff;
+  height: 60px;
+  border-radius: 12px;
+  width: 155px;
+}
+header .tag_3 b {
+  color: #2E2E2E;
+  font-weight: 400;
+}
+header .tag_3 p {
+  color: #817D7D;
 }/*# sourceMappingURL=style.css.map */
