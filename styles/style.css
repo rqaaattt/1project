@@ -1,0 +1,100 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+body {
+  height: 100vh;
+  padding: 4.5% 10%;
+}
+
+header .frame_1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .frame_1 img {
+  cursor: pointer;
+}
+header .frame_1 .account {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .frame_1 .account a {
+  color: #2E2E2E;
+  font-weight: 500;
+  text-decoration: none;
+  margin: 0 32px;
+  cursor: pointer;
+}
+header .frame_1 .account .sign-in {
+  background-color: #000;
+  border-radius: 50px;
+  width: 125px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .frame_1 .account .sign-in a {
+  color: #fff;
+}
+header .frame_1 .other_links a {
+  margin: 0 25px;
+  font-weight: 400;
+  font-size: 15px;
+  color: #909090;
+  text-decoration: none;
+  cursor: pointer;
+}
+header .frame_1 .other_links .on {
+  color: #2E2E2E;
+  font-weight: 500;
+}
+header .tag_1 {
+  color: #FE8432;
+  background-color: #FFF3EB;
+  border-radius: 20px;
+  width: 15%;
+  text-align: center;
+  font-size: 12px;
+}
+header .tag_2 h1 {
+  position: relative; /* Добавляем позиционирование для работы z-index */
+  color: #2E2E2E;
+  font-weight: 600;
+  font-size: 82px;
+  z-index: 1;
+  line-height: 1.2;
+}
+header .tag_2 img {
+  position: absolute;
+  bottom: 74%;
+  left: 10.4%;
+  z-index: 0;
+  width: auto;
+  height: auto;
+}
+header .tag_2 p {
+  margin: 20px 0;
+  font-size: 16px;
+  color: #817D7D;
+}
+header .form {
+  display: flex;
+  justify-content: space-between;
+  width: 55%;
+  background-color: white;
+  border: #000 solid 1px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 10px 1px #817D7D;
+}
+header .form details summary {
+  color: #817D7D;
+  font-size: 16px;
+  font-weight: 400;
+}/*# sourceMappingURL=style.css.map */
